@@ -1,0 +1,121 @@
+{
+    "loggingLevel": {
+        "type": "list",
+        "name": "loggingLevel",
+        "message": "How Much logging would you like to do?",
+        "choices": [
+            "fullDetail",
+            "onlyTheStats", 
+            "quickTest"
+        ]
+    },
+    "fullDetail": [
+        {
+            "type": "number",
+            "name": "minExcersice",
+            "message": "For how many minutes did you excersice today?"
+        },
+        {
+            "type": "number",
+            "name": "whenSleep",
+            "message": "When did you go to bed? (input 9.50 for 9:30, etc. count from 12-noon, that is, 2AM=14)"
+        },
+        {
+            "type": "number",
+            "name": "hrsSleep",
+            "message": "How many hours of sleep did you get? (input 9.50 for 9:30, etc.)"
+        },
+        {
+            "type": "confirm",
+            "name": "didStretch",
+            "message": "Have you stretched today?"
+        },
+        {
+            "type": "confirm",
+            "name": "didMeditate",
+            "message": "Have you meditated today? (this is pretty important)"
+        },
+        {
+            "type": "list",
+            "name": "deepWorkLevel",
+            "message": "How did you feel about your deep work (value focus, curiousity, and partial progress)",
+            "choices": [
+                "terrible",
+                "barely ok",
+                "good",
+                "hey! Not bad at all!",
+                "omg! Fabulous!"
+            ]
+        },
+        {
+            "type": "input",
+            "name": "oneGreatThing",
+            "message": "What's one awesome thing you APPRECIATE happening today? (from trivial to grand!)"
+        },
+        {
+            "type": "input",
+            "name": "oneLearned",
+            "message": "What's one cool thing you learned today? (not necesserily academic!)"
+        },
+        {
+            "type": "editor",
+            "name": "fullReflection",
+            "message": "Pause, take your hands of the keyboard, and reflect on your condition (how are you feeling? What's occupying you?). Write whatever comes to mind or nothing at all."
+        },
+        {
+            "type": "number",
+            "name": "dayRating",
+            "message": "After a full reflection, what would you rate today? (1-10; no need to mean=5 ;)."
+        }
+    ],
+   
+    "onlyTheStats": [
+        {
+            "type": "number",
+            "name": "minExcersice",
+            "message": "For how many minutes did you excersice today?"
+        },
+        {
+            "type": "number",
+            "name": "whenSleep",
+            "message": "When did you go to bed? (input 9.50 for 9:30, etc. count from 12-noon, that is, 2AM=14)"
+        },
+        {
+            "type": "number",
+            "name": "hrsSleep",
+            "message": "How many hours of sleep did you get? (input 9.50 for 9:30, etc.)"
+        },
+        {
+            "type": "confirm",
+            "name": "didStretch",
+            "message": "Have you stretched today?"
+        },
+        {
+            "type": "confirm",
+            "name": "didMeditate",
+            "message": "Have you meditated today? (this is pretty important)"
+        },
+        {
+            "type": "list",
+            "name": "deepWorkLevel",
+            "message": "How did you feel about your deep work (value focus, curiousity, and partial progress)",
+            "choices": [
+                "terrible",
+                "barely ok",
+                "good",
+                "hey! Not bad at all!",
+                "omg! Fabulous!"
+            ]
+        },
+        {
+            "type": "number",
+            "name": "dayRating",
+            "message": "After a full reflection, what would you rate today? (1-10; no need to mean=5 ;)."
+        }
+    ],
+    "quickTest": [{
+        "type": "number",
+        "name": "dayRating",
+        "message": "After a full reflection, what would you rate today? (1-10; no need to mean=5 ;)."
+    }]
+}

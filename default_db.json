@@ -1,0 +1,8 @@
+{
+  "description": "Default database when cloning repo'",
+  "Greeting": "Howdy User! Excited for another big and buetifull day full of great people & food, cool ideas, challenging tasks, and small yet significant progression towards your future goals? I sure am!",
+  "Goodbye": "Catch you tommorow to hear about all the awesome things you have achieved and enjoyed today!",
+  "bleedover": -800000,
+  "data": [
+  ]
+}
